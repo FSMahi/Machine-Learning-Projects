@@ -1,1 +1,59 @@
+# 📧 Spam Email Detection Using NLP and Machine Learning
+
+Welcome to the **Spam Email Detection** project!  
+This notebook demonstrates how to apply **Natural Language Processing (NLP)** techniques combined with **Machine Learning** algorithms to automatically classify emails as **spam** or **ham** (not spam).
+
+---
+
+## 🚀 Project Overview
+
+This project walks you through an end-to-end NLP pipeline, covering everything from **text preprocessing** to **model training** and **evaluation**. It is designed to help beginners understand how to handle real-world text data and build effective spam classifiers.
+
+---
+
+## 🧠 Key Concepts Covered
+
+### 1. 🧹 Data Preprocessing
+We clean and prepare raw email text for analysis by performing:
+- Lowercasing and punctuation removal
+- Stopwords elimination
+- Chat word normalization (e.g., `brb` → `be right back`)
+- Tokenization
+- Stemming (using PorterStemmer)
+
+### 2. 📊 Text Vectorization
+We convert textual data into numerical features using:
+- **TF-IDF (Term Frequency–Inverse Document Frequency)**
+
+### 3. 🤖 Model Training and Evaluation
+We train and compare various machine learning models:
+- Naive Bayes
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Random Forest
+- AdaBoost
+- Extra Tree
+- XGBoost
+
+Each model is evaluated using performance metrics like:
+- Accuracy
+- Precision
+
+> ✅ **Precision** is the primary evaluation metric, since minimizing false positives (legitimate emails classified as spam) is critical.
+
+---
+
+## 🧪 Precision Explained
+
+Precision is calculated as:
+
+$Precision = \frac{True Positives}{True Positives + False Positives}$
+
+- **True Positives (TP):** Spam emails correctly identified.
+- **False Positives (FP):** Ham (legitimate) emails incorrectly labeled as spam.
+
+⚠️ A **higher precision** means the model is better at **not misclassifying legitimate emails**, which is essential in spam detection systems.
+
+
 
