@@ -56,8 +56,8 @@ Although clustering is unsupervised, we evaluated performance by comparing clust
 
 | Algorithm      | Adjusted Rand Index |
 |----------------|---------------------|
-| K-Means        | 0.5681              |
-| Hierarchical   | 0.6153              |
+| K-Means        | 0.620135            |
+| Hierarchical   | 0.718358            |
 | DBSCAN         | 0.5518              |
 
 ---
